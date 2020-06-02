@@ -1,0 +1,20 @@
+.oliveBack{
+  background-color: olive;
+}
+
+
+#hexa {
+  background-image: url("src/assets/images/hexagone.png");
+  background-size: 10%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.card-body {
+  position: absolute;
+  top:8px;
+  right:16px;
+}
+

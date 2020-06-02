@@ -1,0 +1,202 @@
+
+<app-header></app-header>
+
+<div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
+
+  <div class="section" (click)="fullpage_api.moveTo('dirigeant',1)" >
+    <div id="box">
+      <div class="row">
+        <img src="assets/images/U4U_developpeur_ambitions.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('forum',2)">
+    <div class="fp-tableCell">
+      <app-dirigeant></app-dirigeant>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('qui-sommes-nous',3)">
+    <div class="fp-tableCell">
+      <app-forum></app-forum>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('etat-d-esprit',4)">
+    <div id="box_b">
+    <div class="fp-tableCell">
+      <app-qui-sommes-nous></app-qui-sommes-nous>
+    </div>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('valeurs',5)">
+    <div class="fp-tableCell">
+      <app-etat-esprit></app-etat-esprit>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('nous-rejoindre',6)">
+    <div class="fp-tableCell">
+      <app-valeurs></app-valeurs>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="fp-table">
+        <app-form></app-form>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('data',8)">
+
+    <div class="center">
+      <div class="card-body">
+        <div id="hexa">
+      <h1>NOS OFFRES DE COMPETENCES</h1>
+      <p class="card-text">Réparties en 3 domaines, vous pourrez trouver des profils parmi les compétences suivantes :</p>
+        </div>
+        </div>
+      </div>
+    </div>
+<!--      <div class="card-body">
+        <div id="hexa">
+        <h1>NOS OFFRES DE COMPETENCES</h1>
+        <div class="card-text">
+          <p>Réparties en 3 domaines, vous pourrez trouver des profils parmi les compétences suivantes :</p>
+        </div>
+        </div>
+        </div>-->
+
+
+  <div class="section" (click)="fullpage_api.moveTo('digital',9)" >
+    <div class="fp-tableCell">
+      <app-data></app-data>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('it-risk',10)" >
+    <div class="fp-tableCell">
+      <app-digital></app-digital>
+    </div>
+  </div>
+
+  <div class="section" (click)="fullpage_api.moveTo('footer',11)">
+    <div class="fp-tableCell">
+      <app-it-risk></app-it-risk>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container-lg">
+      <app-footer></app-footer>
+    </div>
+  </div>
+ </div>
+
+      <!--<div class="card-img">
+        <div class="row no-gutters">
+
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text text-right">
+                Un Système d'information "USFORYOU" fait pour <br><span class="oliveBack">libérer les initiatives</span> de nos
+                collaborateurs dans l'entreprise. Le S.I d'usforyou est intégralement construit <span class="oliveBack">dans le CLOUD.</span><br>
+                Aucune infrastructure privée, toute notre S.I et nos solutions sont interconnectées et permettent, le télétravail,
+                le collaboratif.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="assets/images/USFORYOU_Offre.png" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="card-img">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="assets/images/USFORYOU_Developpeur.png" class="card-img" alt="..."/>
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">L'esprit d'équipe et de réussites en commun !
+                <span class="oliveBack">Les collaborateurs sont intéressés</span> au projet de l'entreprise.
+                Ils animent leur communauté par domaine et veillent sur nos choix technologiques. Rien ne se réussit sans partage de connaissance</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+
+
+
+
+
+<!--<div class="container-fluid">
+  <div class="row" >
+
+    <div class="col-lg-8">
+      <img src="assets/images/U4U_developpeur_ambitions.png" class="row-cols-1">
+      <a class="btn btn-primary row-cols-lg-7" id="btnAcces" href="#btnCollabo">ACCES COLLABORATEUR</a>
+    </div>
+  </div>
+</div>-->
+<!--
+<div class="img-fluid d-inline-block">
+      <img src="assets/images/developpeur ambitions.png" class="img-fluid">
+&lt;!&ndash;  <div style="position: relative" class="col">
+    <a class="btn btn-primary btn-sm" id="btnAcces" href="#btnCollabo">ACCES COLLABORATEUR</a>
+  </div>&ndash;&gt;
+</div>-->
+
+<!--<div class="container align-content-center">
+  <div class="row text-center">
+    <div class="col-sm">
+      <img src="assets/images/USFORYOU_Data.png" style="max-height:35px"/>
+        <span class="offresBtn"> DATA</span></div>
+    <div class="col-sm">
+      <img src="assets/images/USFORYOU_Digital.png" style="max-height:35px"/>
+      <span class="offresBtn"> DIGITAL</span></div>
+    <div class="col-sm">
+      <img src="assets/images/USFORYOU_Risk.png" style="max-height:35px"/>
+      <span class="offresBtn"> IT RISK</span></div>
+  </div>
+</div><br><br><br>
+<div class="container-lg">
+  <img src="assets/images/U4U_excellence_code.png" class="card-img"/>
+</div><br><br><br><br>
+<div class="container-lg">
+  <div class="card-img">
+    <div class="row no-gutters">
+      <div class="col-md-8">
+        <img src="assets/images/USFORYOU_Carriere.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-4">
+        <div class="card-body">
+          <h5 class="card-title">Forum EPSI | MARS 31, 2020.</h5>
+          <p class="card-text">Nous serons sur le forum Alternant de l’EPSI ce 07 avril 2020.
+
+            N’hésitez pas à venir nous rejoindre.
+
+          </p>
+          <a class="btn btn-dark" href="https://www.facebook.com/usforyou.net/">
+          <img src="/assets/images/logoFB.png" class="img-fluid" alt="Image" width="30" height="30" alt=""/>
+          </a>
+          <a class="btn btn-dark" href="https://twitter.com/">
+          <img src="/assets/images/logoTwitter.png" class="img-fluid" alt="Image" width="30" height="30" alt=""/>
+          </a>
+          <a class="btn btn-dark" href="https://www.linkedin.com/company/usforyou/">
+          <img src="/assets/images/logoLinkedIn.png" class="img-fluid" alt="Image" width="30" height="30" alt=""/>
+          </a>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div
+      </div>
+    </div>
+  </div>
+</div>-->

@@ -1,0 +1,25 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run & nodemon app.js"
+  },
+  "author": "Guillaume et Roman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "latest",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "latest",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
